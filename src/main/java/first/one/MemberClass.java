@@ -5,7 +5,7 @@ public class MemberClass {
     private String name = "outer";
 
     protected class Inner {
-
+        String name = "inner";
         public void printName() {
             System.out.println(name);
         }
